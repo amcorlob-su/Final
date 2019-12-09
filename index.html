@@ -7,27 +7,29 @@
     
         <link rel="stylesheet" href="style.css" />
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+       
+       
         <style>
-        .carousel-inner > .item > img,
-        .carousel-inner > .item > a > img {
-          width: 33%;
-          margin: auto;
-        }
-        </style>
+            .carousel-inner > .item > img,
+            .carousel-inner > .item > a > img {
+              width: 33%;
+              margin: auto;
+            }
+            </style>
       </head>
     
     <body>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">363</a>
+            <a class="navbar-brand" href="#">
+                    <img class="img-fluid" src="AxelGif2.gif" alt="Logo" width="100" height="100">
+            </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
               <ul class="navbar-nav">
                 <li class="nav-item active">
-                  <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
+                  <a class="nav-link" href="index.html">About <span class="sr-only"></span></a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="monday.html">Monday</a>
@@ -48,101 +50,73 @@
             </div>
           </nav>
 
-          
+       
+            <h2>A 363 Week</h2>
+            
+         
 
-          <div class="container">
-            <h2>AMC 363</h2>
-            <div id="myCarousel" class="carousel slide">
-              <ol class="carousel-indicators">
-                <li class="item1 active"></li>
-                <li class="item2"></li>
-                <li class="item3"></li>
-                <li class="item4"></li>
-                <li class="item5"></li>
-              </ol>
-              <div class="carousel-inner" role="listbox">
+          <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
 
-                <div class="item active">
-                  <img src="jordan-side.jpg" alt="Jordan 3s" width="500" height="345">
+              <div class="carousel-item active mx-auto">
+                <img class="img-fluid" src="jordan-side.jpg" alt="Jordan 3s" width="300" height="145">
                   <div class="carousel-caption">
                     <h3>Jordan 3s White Cements</h3>
                     <p>Always liked these and was glad that got them last year!</p>
                   </div>
+              </div>
+
+              <div class="carousel-item mx-autp">
+                <img class="img-fluid" src="af1-side.jpg" alt="Air Forces" width="300" height="145">
+                <div class="carousel-caption">
+                  <h3>Air Force 1 Low</h3>
+                  <p>My roomate gave these to me!</p>
                 </div>
-          
-                <div class="item">
-                  <img src="af1-side.jpg" alt="Air Forces" width="500" height="345">
-                  <div class="carousel-caption">
-                    <h3>Air Force 1 Low</h3>
-                    <p>My roomate gave these to me!</p>
-                  </div>
-                </div>
+              </div>
               
-                <div class="item">
-                  <img src="mcfly-side.jpg" alt="Dunks" width="500" height="345">
+              <div class="carousel-item mx-auto">
+                <img class="img-fluid" src="mcfly-side.jpg" alt="Dunks" width="300" height="145">
                   <div class="carousel-caption">
-                    <h3>Flowers</h3>
+                    <h3>Nike SB Dunk Lows</h3>
                     <p>The colorway is in reference to Back to the Future</p>
                   </div>
-                </div>
-          
-                <div class="item">
-                  <img src="convsere-side.jpg" alt="Converse" width="500" height="345">
-                  <div class="carousel-caption">
-                    <h3>Flowers</h3>
-                    <p>It's cute that everyone probably had these at one point in their life</p>
-                  </div>
-                </div>
-                
-                <div class="item">
-                    <img src="blazers-side.jpg" alt="Blazers" width="500" height="345">
-                    <div class="carousel-caption">
-                      <h3>Flowers</h3>
-                      <p>Beautiful flowers in Kolymbari, Crete.</p>
-                    </div>
-                  </div>
-
               </div>
+              
+              <div class="carousel-item mx-auto">
+                <img class="img-fluid" src="convsere-side.jpg" alt="Converse" width="300" height="145">
+                <div class="carousel-caption">
+                  <h3>Converse Chuck 70</h3>
+                  <p>It's cute that everyone probably had these at one point in their life</p>
+                </div>
+              </div>
+              
+              <div class="carousel-item mx-auto">
+                <img class="img-fluid" src="blazers-side.jpg" alt="Blazers" width="300" height="145">
+                <div class="carousel-caption">
+                  <h3>Nike Blazer Mid 77 Vintage</h3>
+                  <p>I'm not a huge fan of high tops but these look sick</p>
+                </div>
+              </div>
+            
             </div>
-            <a class="left carousel-control" href="#myCarousel" role="button">
-                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-              </a>
-              <a class="right carousel-control" href="#myCarousel" role="button">
-                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-              </a>
-            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
           </div>
+        
           
-          <script>
-          $(document).ready(function(){
-            
-            $("#myCarousel").carousel();
-              
-     
-            $(".item1").click(function(){
-              $("#myCarousel").carousel(0);
-            });
-            $(".item2").click(function(){
-              $("#myCarousel").carousel(1);
-            });
-            $(".item3").click(function(){
-              $("#myCarousel").carousel(2);
-            });
-            $(".item4").click(function(){
-              $("#myCarousel").carousel(3);
-            });
-              
-            
-            $(".left").click(function(){
-              $("#myCarousel").carousel("prev");
-            });
-            $(".right").click(function(){
-              $("#myCarousel").carousel("next");
-            });
-          });
-          </script>
-
+          <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     </body>
 </html>
