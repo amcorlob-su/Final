@@ -11,3 +11,7 @@ ul {list-style:none;}
           margin: auto;
         }
 
+.h2{
+  justify-content: center;
+  display: flex;
+}
